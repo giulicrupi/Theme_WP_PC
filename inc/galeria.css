@@ -1,0 +1,225 @@
+     .carousel-control-next-icon {
+    background-image: url(/wp-content/themes/club-line/svg/arrow-right.png);    width: 27%!important;
+    height: 47%!important;}
+         
+         .carousel-control-prev-icon {
+    background-image: url(/wp-content/themes/club-line/svg/arrow-right.png)!important;
+        width: 27%!important;
+    height: 70%!important;
+    margin-right: 52%!important;
+  }
+
+    
+    .carousel-indicators li{
+    background-color: #907440!important;
+        bottom: -20%!important;
+            width: 10%;
+    }
+.carousel-indicators{
+  bottom: -20%!important;
+  right: 16%;
+}
+.carousel-control-prev {
+   
+    height: 13%!important;
+    top: 106%!important;
+}
+.carousel-control-next {
+    right: 0;
+    height: 20%;
+    left: 5%;
+    top: 103%;
+}
+     .p-branco2{
+
+    color: #fff;
+    font-weight: 100!important;
+    font-family: 'Yantramanav', sans-serif!important;
+    
+    font-size: 19px;
+
+     }
+
+.carousel-fade1 .carousel-item {
+ opacity: 0;
+ transition-duration: .6s;
+ transition-property: opacity;
+}
+
+.carousel-fade1  .carousel-item.active,
+.carousel-fade1  .carousel-item-next.carousel-item-left,
+.carousel-fade1  .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade1 .active.carousel-item-left,
+.carousel-fade1  .active.carousel-item-right {
+ opacity: 0;
+}
+
+.carousel-fade1  .carousel-item-next,
+.carousel-fade1 .carousel-item-prev,
+.carousel-fade1 .carousel-item.active,
+.carousel-fade1 .active.carousel-item-left,
+.carousel-fade1  .active.carousel-item-prev {
+ transform: translateX(0);
+ transform: translate3d(0, 0, 0);
+}
+
+
+
+.card{
+  margin-top: 50px;
+  background: transparent;
+}
+.slick-slide img{
+  margin: 0 auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0%;
+  margin-bottom: 25px;
+}
+.item{
+  padding: 15px;
+  outline: none;
+}
+.item-inner{
+  background: transparent;
+border-radius: 18px;
+text-align: center;
+padding: 0px;
+
+}
+
+.slick-slide{
+ /* transform: scale(0.8);*/
+  
+  transition: all ease 0.5s;
+  
+}
+.slick-slide.slick-current{
+  transform: scale(1);
+  opacity: 1;
+  filter: blur(0px);
+}
+
+
+.slick-arrow{
+  position: absolute;
+    bottom: 0%;
+  z-index: 99;
+  background: #fff;
+  border:none;
+  padding: 8px 15px;
+  border-radius: 50px;
+  width: 100px;
+  outline: none;
+
+}
+.slick-next{
+    left: 63.8%;
+  font-size: 0;
+  background: transparent;
+}
+.slick-prev{
+    left: 29%;
+   font-size: 0;
+   background: transparent;
+}
+
+
+
+/*.slick-next:before{
+     font-family: "Font Awesome 5 Free";
+   content: "\f062";
+   display: inline-block;
+   padding-right: 3px;
+   font-size: 17px;
+   vertical-align: middle;
+   font-weight: 900;
+       transform: rotate(90deg);
+}*/
+.slick-cloned .item-inner .desc-galeria{
+  display: none;
+}
+.slick-slide  .item-inner .desc-galeria{
+  display: none;
+}
+.slick-center  .item-inner .desc-galeria{
+  display: block;
+}
+.slick-next:before{
+  content:url('../svg/arrow-right-ind.png')
+
+}
+.slick-prev:before{
+  content:url('../svg/arrow-left-ind.png')
+
+}
+
+.nav-link{
+  transition: 0.5s;
+}
+.menu-vinho{
+  transition: 0.5s;
+  color: #5a1e04!important;
+  font-weight: 400!important;
+}
+.logo-principal-ativo{
+      
+      transition: 0.5s;
+      filter: saturate(125.5) brightness(0.4)!important;
+       width: 60%!important;
+}
+.logo-principal{
+  transition: 0.5s;
+      width: 100%;
+}
+.icone{
+  background: #670000!important;
+    color: #fff!important;
+    transition: 0.5s!important;
+}
+.redes-sociais2{
+
+}
+.redes-sociais2::after {
+    content: '';
+    border: 1px solid #670000!important;
+    margin-right: 1%;
+    transition: 0.5s;
+}
+.whats-old img{
+  
+   cursor: pointer;
+   transition: 0.5s;
+}
+.whats-old img:hover{
+  filter: drop-shadow(2px 4px 6px black);
+}
+nav{
+  transition: 0.5s;
+}
+.logo-principal{
+  transition: 0.5s;
+}
+.nav-active{
+     background: red!important;
+     transition: 0.5s;
+
+}
+.nav-active2{
+     background: #ffffffba!important;
+     transition: 0.5s;
+
+}
+/*.fancybox-button{
+  display: none!important;
+}*/
+.fancybox-button--arrow_right{
+  display: none!important;
+}
+.fancybox-button--arrow_left{
+  display: none!important;
+}
+
